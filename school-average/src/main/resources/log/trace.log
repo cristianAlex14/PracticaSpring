@@ -1,0 +1,42 @@
+2024-10-01 19:01:40.433 [http-nio-8080-exec-6] INFO  c.a.s.a.controller.AlumnoController - Recibida solicitud para agregar materias al alumno con ID 1
+2024-10-01 19:01:40.440 [http-nio-8080-exec-6] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Entrando a agregarMaterias - alumnoId: 1, materiasDTO: [MateriaDTO(id=null, nombre=Matemáticas), MateriaDTO(id=null, nombre=Historia), MateriaDTO(id=null, nombre=Ciencias)]
+2024-10-01 19:01:40.539 [http-nio-8080-exec-6] DEBUG c.a.s.a.s.impl.AlumnoServiceImpl - Materia guardada: Materia(id=1, nombre=Matemáticas, alumnos=null, calificaciones=null)
+2024-10-01 19:01:40.546 [http-nio-8080-exec-6] DEBUG c.a.s.a.s.impl.AlumnoServiceImpl - Materia guardada: Materia(id=2, nombre=Historia, alumnos=null, calificaciones=null)
+2024-10-01 19:01:40.551 [http-nio-8080-exec-6] DEBUG c.a.s.a.s.impl.AlumnoServiceImpl - Materia guardada: Materia(id=3, nombre=Ciencias, alumnos=null, calificaciones=null)
+2024-10-01 19:01:40.551 [http-nio-8080-exec-6] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Materias agregadas correctamente al alumno con ID 1
+2024-10-01 19:01:40.551 [http-nio-8080-exec-6] INFO  c.a.s.a.controller.AlumnoController - Materias agregadas correctamente al alumno con ID 1
+2024-10-01 19:02:15.154 [http-nio-8080-exec-7] INFO  c.a.s.a.controller.AlumnoController - Recibida solicitud para agregar calificación: CalificacionDTO(alumnoId=1, materiaId=1, bimestre=1, calificacion=9.5)
+2024-10-01 19:02:15.160 [http-nio-8080-exec-7] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Entrando a agregarCalificacion - calificacionDTO: CalificacionDTO(alumnoId=1, materiaId=1, bimestre=1, calificacion=9.5)
+2024-10-01 19:02:15.195 [http-nio-8080-exec-7] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Calificación agregada correctamente: [FAILED toString()]
+2024-10-01 19:02:15.232 [http-nio-8080-exec-7] INFO  c.a.s.a.controller.AlumnoController - Calificación agregada correctamente: [FAILED toString()]
+2024-10-01 19:02:51.431 [http-nio-8080-exec-8] INFO  c.a.s.a.controller.AlumnoController - Recibida solicitud para agregar calificación: CalificacionDTO(alumnoId=1, materiaId=2, bimestre=1, calificacion=9.5)
+2024-10-01 19:02:51.432 [http-nio-8080-exec-8] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Entrando a agregarCalificacion - calificacionDTO: CalificacionDTO(alumnoId=1, materiaId=2, bimestre=1, calificacion=9.5)
+2024-10-01 19:02:51.445 [http-nio-8080-exec-8] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Calificación agregada correctamente: [FAILED toString()]
+2024-10-01 19:02:51.490 [http-nio-8080-exec-8] INFO  c.a.s.a.controller.AlumnoController - Calificación agregada correctamente: [FAILED toString()]
+2024-10-01 19:02:58.288 [http-nio-8080-exec-9] INFO  c.a.s.a.controller.AlumnoController - Recibida solicitud para agregar calificación: CalificacionDTO(alumnoId=1, materiaId=3, bimestre=1, calificacion=9.5)
+2024-10-01 19:02:58.289 [http-nio-8080-exec-9] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Entrando a agregarCalificacion - calificacionDTO: CalificacionDTO(alumnoId=1, materiaId=3, bimestre=1, calificacion=9.5)
+2024-10-01 19:02:58.301 [http-nio-8080-exec-9] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Calificación agregada correctamente: [FAILED toString()]
+2024-10-01 19:02:58.325 [http-nio-8080-exec-9] INFO  c.a.s.a.controller.AlumnoController - Calificación agregada correctamente: [FAILED toString()]
+2024-10-01 19:03:18.190 [http-nio-8080-exec-10] INFO  c.a.s.a.controller.AlumnoController - Recibida solicitud para obtener el promedio de la materia con ID 1
+2024-10-01 19:03:18.191 [http-nio-8080-exec-10] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Entrando a obtenerPromedioMateria - materiaId: 1
+2024-10-01 19:03:18.219 [http-nio-8080-exec-10] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Promedio de la materia con ID 1: 9.5
+2024-10-01 19:03:18.220 [http-nio-8080-exec-10] INFO  c.a.s.a.controller.AlumnoController - Promedio obtenido para la materia con ID 1: 9.5
+2024-10-01 19:03:48.665 [http-nio-8080-exec-2] INFO  c.a.s.a.controller.AlumnoController - Recibida solicitud para obtener el promedio de la materia con ID 1 para el bimestre 1
+2024-10-01 19:03:48.666 [http-nio-8080-exec-2] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Entrando a obtenerPromedioMateriaPorBimestre - materiaId: 1, bimestre: 1
+2024-10-01 19:03:48.677 [http-nio-8080-exec-2] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Promedio de la materia con ID 1 para el bimestre 1: 9.5
+2024-10-01 19:03:48.678 [http-nio-8080-exec-2] INFO  c.a.s.a.controller.AlumnoController - Promedio obtenido: 9.5
+2024-10-01 19:03:58.193 [http-nio-8080-exec-1] INFO  c.a.s.a.controller.AlumnoController - Recibida solicitud para obtener el promedio de la materia con ID 1 para el bimestre 2
+2024-10-01 19:03:58.194 [http-nio-8080-exec-1] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Entrando a obtenerPromedioMateriaPorBimestre - materiaId: 1, bimestre: 2
+2024-10-01 19:03:58.197 [http-nio-8080-exec-1] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Promedio de la materia con ID 1 para el bimestre 2: null
+2024-10-01 19:03:58.198 [http-nio-8080-exec-1] INFO  c.a.s.a.controller.AlumnoController - Promedio obtenido: null
+2024-10-01 19:04:09.001 [http-nio-8080-exec-3] INFO  c.a.s.a.controller.AlumnoController - Recibida solicitud para obtener el promedio del alumno con ID 1
+2024-10-01 19:04:09.003 [http-nio-8080-exec-3] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Entrando a obtenerPromedioAlumno - alumnoId: 1
+2024-10-01 19:04:09.008 [http-nio-8080-exec-3] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Promedio del alumno con ID 1: 9.5
+2024-10-01 19:04:09.008 [http-nio-8080-exec-3] INFO  c.a.s.a.controller.AlumnoController - Promedio obtenido para el alumno con ID 1: 9.5
+2024-10-01 19:04:36.026 [http-nio-8080-exec-5] INFO  c.a.s.a.controller.AlumnoController - Recibida solicitud para obtener el promedio del alumno con ID 1 para el bimestre 1
+2024-10-01 19:04:36.027 [http-nio-8080-exec-5] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Entrando a obtenerPromedioAlumnoPorBimestre - alumnoId: 1, bimestre: 1
+2024-10-01 19:04:36.031 [http-nio-8080-exec-5] INFO  c.a.s.a.s.impl.AlumnoServiceImpl - Promedio del alumno con ID 1 para el bimestre 1: 9.5
+2024-10-01 19:04:36.032 [http-nio-8080-exec-5] INFO  c.a.s.a.controller.AlumnoController - Promedio obtenido: 9.5
+2024-10-01 19:04:58.501 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01 19:04:58.507 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-01 19:04:58.530 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

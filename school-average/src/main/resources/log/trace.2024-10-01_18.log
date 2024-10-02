@@ -1,0 +1,74 @@
+2024-10-01 18:27:07.982 [restartedMain] INFO  c.a.s.a.SchoolAverageApplication - Starting SchoolAverageApplication using Java 17 on LAPTOP-CQ4HLQC3 with PID 18028 (C:\Users\chris\OneDrive\Escritorio\portafolio\school-average\target\classes started by chris in C:\Users\chris\OneDrive\Escritorio\portafolio\school-average)
+2024-10-01 18:27:07.986 [restartedMain] INFO  c.a.s.a.SchoolAverageApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 18:27:08.079 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-01 18:27:08.080 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-01 18:27:09.353 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-01 18:27:09.463 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94 ms. Found 3 JPA repository interfaces.
+2024-10-01 18:27:10.717 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-01 18:27:10.734 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-01 18:27:10.735 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-10-01 18:27:10.921 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-01 18:27:10.922 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2841 ms
+2024-10-01 18:27:11.898 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-01 18:27:12.278 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-01 18:27:13.485 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01 18:27:14.385 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-01 18:27:14.963 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-01 18:27:15.007 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-01 18:27:15.026 [restartedMain] INFO  c.a.s.a.SchoolAverageApplication - Started SchoolAverageApplication in 7.871 seconds (JVM running for 8.795)
+2024-10-01 18:27:32.697 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-01 18:27:32.697 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-01 18:27:32.699 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-01 18:27:32.888 [http-nio-8080-exec-1] INFO  c.a.s.a.controller.AlumnoController - Recibida solicitud para crear un nuevo alumno: AlumnoDTO(nombre=Juan Pérez)
+2024-10-01 18:27:32.892 [http-nio-8080-exec-1] DEBUG c.a.s.a.s.impl.AlumnoServiceImpl - Creando nuevo alumno con nombre: Juan Pérez
+2024-10-01 18:27:32.982 [http-nio-8080-exec-1] DEBUG c.a.s.a.s.impl.AlumnoServiceImpl - Alumno guardado: Alumno(id=1, nombre=Juan Pérez, calificaciones=null)
+2024-10-01 18:27:32.983 [http-nio-8080-exec-1] INFO  c.a.s.a.controller.AlumnoController - Alumno creado correctamente: Alumno(id=1, nombre=Juan Pérez, calificaciones=null)
+2024-10-01 18:29:34.695 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01 18:29:34.704 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-01 18:29:34.715 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-01 18:58:35.623 [restartedMain] INFO  c.a.s.a.SchoolAverageApplication - Starting SchoolAverageApplication using Java 17 on LAPTOP-CQ4HLQC3 with PID 6588 (C:\Users\chris\OneDrive\Escritorio\portafolio\school-average\target\classes started by chris in C:\Users\chris\OneDrive\Escritorio\portafolio\school-average)
+2024-10-01 18:58:35.626 [restartedMain] INFO  c.a.s.a.SchoolAverageApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 18:58:35.694 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-01 18:58:35.694 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-01 18:58:36.969 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-01 18:58:37.072 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 87 ms. Found 3 JPA repository interfaces.
+2024-10-01 18:58:38.497 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-01 18:58:38.515 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-01 18:58:38.516 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-10-01 18:58:38.721 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-01 18:58:38.722 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3027 ms
+2024-10-01 18:58:39.727 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-01 18:58:40.121 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-01 18:58:41.386 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01 18:58:42.945 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-01 18:58:43.795 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-01 18:58:43.866 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-01 18:58:43.888 [restartedMain] INFO  c.a.s.a.SchoolAverageApplication - Started SchoolAverageApplication in 9.082 seconds (JVM running for 10.03)
+2024-10-01 18:58:43.915 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01 18:58:43.921 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-01 18:58:43.929 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-01 18:59:16.715 [restartedMain] INFO  c.a.s.a.SchoolAverageApplication - Starting SchoolAverageApplication using Java 17 on LAPTOP-CQ4HLQC3 with PID 13236 (C:\Users\chris\OneDrive\Escritorio\portafolio\school-average\target\classes started by chris in C:\Users\chris\OneDrive\Escritorio\portafolio\school-average)
+2024-10-01 18:59:16.718 [restartedMain] INFO  c.a.s.a.SchoolAverageApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 18:59:16.799 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-01 18:59:16.799 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-01 18:59:18.031 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-01 18:59:18.137 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 87 ms. Found 3 JPA repository interfaces.
+2024-10-01 18:59:19.598 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-10-01 18:59:19.619 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-01 18:59:19.620 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-10-01 18:59:19.837 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-01 18:59:19.838 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3037 ms
+2024-10-01 18:59:20.811 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-01 18:59:21.090 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-01 18:59:22.421 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01 18:59:23.358 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-01 18:59:23.970 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-01 18:59:24.018 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-01 18:59:24.035 [restartedMain] INFO  c.a.s.a.SchoolAverageApplication - Started SchoolAverageApplication in 8.148 seconds (JVM running for 9.034)
+2024-10-01 18:59:52.879 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-01 18:59:52.881 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-01 18:59:52.885 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-10-01 18:59:53.106 [http-nio-8080-exec-1] INFO  c.a.s.a.controller.AlumnoController - Recibida solicitud para crear un nuevo alumno: AlumnoDTO(nombre=Juan Pérez)
+2024-10-01 18:59:53.111 [http-nio-8080-exec-1] DEBUG c.a.s.a.s.impl.AlumnoServiceImpl - Creando nuevo alumno con nombre: Juan Pérez
+2024-10-01 18:59:53.205 [http-nio-8080-exec-1] DEBUG c.a.s.a.s.impl.AlumnoServiceImpl - Alumno guardado: Alumno(id=1, nombre=Juan Pérez, materias=null, calificaciones=null)
+2024-10-01 18:59:53.215 [http-nio-8080-exec-1] INFO  c.a.s.a.controller.AlumnoController - Alumno creado correctamente: Alumno(id=1, nombre=Juan Pérez, materias=null, calificaciones=null)
